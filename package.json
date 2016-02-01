@@ -1,0 +1,29 @@
+{
+  "name": "bitwise-mask",
+  "version": "0.0.0",
+  "description": "Bitwise mask manipulation functions.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tape -r babel-register test/**/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaalentin/bitwise-mask.git"
+  },
+  "keywords": [
+    "bitwise",
+    "mask"
+  ],
+  "author": "Vaalentin <vaalentin@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaalentin/bitwise-mask/issues"
+  },
+  "homepage": "https://github.com/vaalentin/bitwise-mask#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  }
+}
