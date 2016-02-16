@@ -4,6 +4,7 @@
   "description": "Bitwise mask manipulation functions.",
   "main": "dist/index.js",
   "scripts": {
+    "coverage": "./coverage.sh",
     "test": "tape -r babel-register test/**/*.js | tap-spec",
     "prepublish": "npm run build",
     "build": "babel ./src/index.js --out-file dist/index.js"
@@ -26,6 +27,8 @@
     "babel-cli": "^6.4.5",
     "babel-preset-es2015": "^6.3.13",
     "babel-register": "^6.4.3",
+    "istanbul": "^0.4.2",
+    "remap-istanbul": "^0.5.1",
     "tap-spec": "^4.1.1",
     "tape": "^4.4.0"
   }
