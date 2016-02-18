@@ -1,6 +1,6 @@
 {
   "name": "bitwise-mask",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bitwise mask manipulation functions.",
   "main": "dist/index.js",
   "scripts": {

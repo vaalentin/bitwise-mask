@@ -1,6 +1,7 @@
 # Bitwise mask
 
 [![Build Status](https://travis-ci.org/vaalentin/bitwise-mask.svg?branch=master)](https://travis-ci.org/vaalentin/bitwise-mask)
+[![Test Coverage](https://codeclimate.com/github/vaalentin/bitwise-mask/badges/coverage.svg)](https://codeclimate.com/github/vaalentin/bitwise-mask/coverage)
 
 ## Installation
 
